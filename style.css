@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    overflow: hidden;
+
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Header*/
+.page-title {
+    margin: 10px;
+    font-weight: 400;
+    font-size: 4rem;
+}
+.page-title h2 { 
+    font-weight: normal;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+/*Main*/
+.brain-image{
+    width: 600px;
+    position: absolute;
+    top: 20px;
+    transform: rotate(10deg);
+}
+.brain-image:hover { 
+    transform: matrix(0.65, 0.77, -0.83, 0.55, 0, 0);
+}
+button { 
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #F08838;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(49, 47, 47);
+}
+button:hover{
+    color: #000000;
+    background-color: #f2af7b;
+}
+input { 
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    text-align: center;    
+}
+/*Footer*/
+.rodape{
+    /* border-top: 1px solid purple; */
+    width: 50%;
+    margin: 230px auto;
+}
+.rodape p { 
+    color: white;
+}
+.imersao-dev{
+    width: 150px;
+}
