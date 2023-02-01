@@ -87,3 +87,55 @@ button:hover{
 .imersao-dev{
     width: 150px;
 }
+
+/*Media queries*/
+@media screen and (max-width: 575.98px){
+    body { 
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 671px;
+    }
+    .alura-logo { 
+        top: 20px
+    }
+    .brain-image { 
+        width: 200px;
+        position: top;
+    }
+    .brain-image:hover{
+        transform: none;
+    }
+    .rodape { 
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 991.98px){
+    body { 
+        display: block;
+        background-size: auto;
+    }
+    .brain-image { 
+        width: 200px;
+        position: top;
+    }
+    .brain-image:hover{
+        transform: none;
+    }
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 50px auto;
+    }
+    .rodape p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 4px;
+        margin: 10px auto;
+    }
+
+}
